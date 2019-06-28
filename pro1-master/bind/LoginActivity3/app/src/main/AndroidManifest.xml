@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.samsung.loginactivity">
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="8"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="우리 어디가?"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDPJFkh57VCRhjAwcXi0l2m0ZUxDvr4jGo"/>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SampleIntent"
+            android:label="우리 어디가?"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".MissionActivity"
+            android:label="우리 어디가?"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".MissionActivity2"
+            android:label="우리 어디가?"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".MissionActivity3"
+            android:label="우리 어디가?"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".HintActivity"
+            android:label="우리 어디가?"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".HintActivity2"
+            android:label="우리 어디가?"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".HintActivity3"
+            android:label="우리 어디가?"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".RankActivity"
+            android:label="우리 어디가?"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".CourseSelect"
+            android:label="우리 어디가?"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StoreActivity"
+            android:label="포인트 상점"
+            android:theme="@style/AppTheme"></activity>
+
+    </application>
+
+</manifest>
